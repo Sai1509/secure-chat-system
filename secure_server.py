@@ -1,7 +1,6 @@
 import socket
 from Crypto.Cipher import AES
 
-# Pre-shared key for simplicity
 KEY = b"thisisasecretkey"  # 16 bytes
 
 
