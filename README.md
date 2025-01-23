@@ -1,2 +1,26 @@
-# secure-chat-system
-Secure Chat System is a Python-based application that enables encrypted communication between a client and a server. It uses AES-GCM encryption to ensure that messages are both confidential and tamper-proof, making it a simple yet powerful example of secure real-time communication.
+# Secure Chat System
+A secure chat system built with Python, leveraging AES-GCM encryption for confidentiality and integrity.
+
+## Features
+- Encrypted messages using AES-GCM.
+- Client-server architecture with Python sockets.
+- Secure communication over localhost.
+
+## How to Run
+1. Start the server:
+   ```bash
+   python secure_server.py
+2. Start the client:
+   ```bash
+   python secure_client.py
+## Future Enhancements
+  Multi-client support
+. Secure key exchange
+. GUI for user-friendly interaction
+
+3. Add, commit, and push the README.md file:
+   ```bash
+   git add README.md
+   git commit -m "Add README.md"
+   git push
+  
